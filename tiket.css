@@ -1,0 +1,28 @@
+body{
+    margin: 0 auto;
+    font-family: sans-serif;
+    background-color: burlywood;
+    text-align: center;
+}
+
+form{
+    width: 100%;
+}
+
+legend{
+    text-align: center;
+}
+.back, a{
+    margin-top: 5px;
+    background-color: #2880b9;
+    color: white;
+    text-decoration: none;
+    width: 70px;
+    height: 60px;
+    border: transparent;
+    border-radius: 10px;
+}
+
+textarea{
+    border-radius: 10px;
+}

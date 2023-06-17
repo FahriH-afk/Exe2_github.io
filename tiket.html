@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tiket.css">
+    <title> Pembelian Tiket Konser</title>
+</head>
+
+<body>
+    <div class="form-box">
+        <div class="container">
+            <div class="header">
+                <h3>Pembelian Tiket Konser</h3>
+            </div>
+            <form action="">
+                <label for="nama">Nama</label><br>
+                <input type="text" placeholder="Nama" id="nama"><br><br>
+                <label for="nim">Alamat</label><br>
+                <input type="text" placeholder="NIM" id="nim"><br>
+                <p>Jenis Tiket:</p>
+
+                <input type="radio" name="peminatan" id="VIP" value="VIP">
+                <label for="programing">VIP</label><br>
+                <input type="radio" name="peminatan" id="Festival" value="Festival">
+                <label for="desain">Festival</label><br>
+                <input type="radio" name="peminatan" id="Tribun" value="Tribun">
+                <label for="jaringan">Tribun</label><br>
+                <label for="">Apa Yang Kamu Ketahui Tentang Josh Turner</label><br>
+                <textarea placeholder="Tulis Jawabanmu Disini" name="alamat" id="alamat" cols="30" rows="5"></textarea>
+                <p>
+                    Pilih Dress Code Kamu
+                    <select>
+                            <option>All Black</option>
+                            <option>B&W</option>
+                            <option>Vintage</option>
+                            <option>Fancy</option>
+                        </select>
+                </p>
+                <label for="tanggal">Tanggal</label>
+                <input type="date" id="tanggal" name="tanggal"><br><br>
+                <button type="submit" onclick="KirimData()">Kirim</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="tiket.js"></script>
+    <button class="back"><a href="main.html">Home</a></button>
+</body>
+
+</html>

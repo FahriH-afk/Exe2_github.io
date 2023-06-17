@@ -1,0 +1,29 @@
+body{
+    background-image: url(https://img.freepik.com/free-photo/brown-concrete-wall-with-scratches-vector_53876-143109.jpg?w=1060&t=st=1680942992~exp=1680943592~hmac=bba82fe10ff7025d51cd72c41a859d997bebc7cd794fe1e49725f399ccf9e917);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+}
+
+h2{
+    font-family: 'Lobster Two',cursive;
+    letter-spacing: 1px;
+            text-transform: uppercase;
+            text-align: center;
+            border: 2px solid #737373;
+            background: #de6a12;
+            color: brown;
+            box-shadow: 1px 1px 2px #c69b7b;
+            border-radius: 10px;
+            padding: 3px 10px;
+            cursor: pointer;
+}
+
+.btn {
+    border-style: hidden;
+}
